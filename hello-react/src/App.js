@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MyName from './MyName';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -9,14 +11,11 @@ function App() {
           리액트
         </div>
         
-        <div>
-          <div>
-          {/* asdf */}
-          <h1
-            // asdf
-          >리액트</h1>
-          </div>
-        </div>
+        <MyName name="react"></MyName>
+
+        <MyName></MyName>
+
+        <Counter></Counter>
       </Fragment>
     );
 }
